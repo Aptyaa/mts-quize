@@ -59,6 +59,9 @@
 		"commit": "yarn test && cz"
 	},
 	"dependencies": {
+		"@emotion/react": "^11.13.3",
+		"@emotion/styled": "^11.13.0",
+		"@mui/material": "^6.1.4",
 		"clsx": "^2.1.0",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0"
