@@ -17,7 +17,11 @@ export const TestItem = ({ children }: { children: ReactNode }) => {
 				p: 0,
 				bgcolor: theme.palette.secondary.main,
 			}}>
-			<Radio color='primary' size='small' sx={{ color: '#8D969F' }} />
+			<Radio
+				color='primary'
+				size='small'
+				sx={{ color: theme.palette.radioColor.main }}
+			/>
 			<Typography component='p' textAlign={'left'}>
 				{children}
 			</Typography>
