@@ -11,6 +11,8 @@ declare module '@mui/material/styles' {
 	}
 }
 
+//  #F2F6FF  - scroll progress
+
 const palette = createPalette({
 	primary: {
 		main: '#FF0032',
@@ -23,6 +25,10 @@ const palette = createPalette({
 	alternate: {
 		main: '#fff',
 		contrastText: '#fff',
+	},
+	background: {
+		default: '#CCE9FD',
+		paper: '#FFF',
 	},
 });
 
@@ -39,6 +45,13 @@ export const theme = createTheme({
 	},
 
 	components: {
+		MuiPaper: {
+			styleOverrides: {
+				root: {
+					boxShadow: 'none',
+				},
+			},
+		},
 		MuiButtonBase: {
 			styleOverrides: {
 				root: {},
